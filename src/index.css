@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+      box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.profile{
+    background: linear-gradient(to right, orange 30%, white 30%);
+}
