@@ -35772,7 +35772,7 @@ const Cart = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: `${cartData.length ? "hidden" : "block"}`,
+                className: `${cartData.length ? "hidden" : "block h-[90vh]"}`,
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _noCartDefault.default), {}, void 0, false, {
                     fileName: "src/components/Cart.js",
                     lineNumber: 28,
@@ -40888,11 +40888,12 @@ const Profile = ()=>{
     (0, _react.useEffect)(()=>{
         getUser();
     }, []);
-    return !userData.avatar_url ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimerProfileDefault.default), {}, void 0, false, {
+    if (!userData.avatar_url) /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimerProfileDefault.default), {}, void 0, false, {
         fileName: "src/components/Profile.js",
-        lineNumber: 19,
-        columnNumber: 5
-    }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        lineNumber: 18,
+        columnNumber: 29
+    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "flex flex-col w-full mt-16 font-bold text-2xl max-md:h-[400px] max-md:mt-0",
         children: [
             "Profile",

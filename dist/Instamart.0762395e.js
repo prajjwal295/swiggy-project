@@ -599,15 +599,15 @@ const Instamart = ()=>{
                 className: "h-[250px] w-auto mb-4"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 7,
+                lineNumber: 6,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 className: "font-bold text-xl text-[rgb(51,44,63)] mb-2",
-                children: "This Feature is only Available in Mobile App"
+                children: "This Feature is only Available in Mobile Apps"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 12,
+                lineNumber: 11,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -615,17 +615,17 @@ const Instamart = ()=>{
                 children: "You can go to Play Store to download our App"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 15,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZFRpgfXbmDsvQWgQGnLMnpz6bJLCr7dB6A",
-                className: "w-[150px] mt-2",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=US"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "https://play.google.com/store/apps/details?id=in.swiggy.android&hl=en&gl=US",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZFRpgfXbmDsvQWgQGnLMnpz6bJLCr7dB6A",
+                    className: "w-[150px] mt-2"
                 }, void 0, false, {
                     fileName: "src/components/Instamart.js",
-                    lineNumber: 22,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
@@ -636,7 +636,7 @@ const Instamart = ()=>{
         ]
     }, void 0, true, {
         fileName: "src/components/Instamart.js",
-        lineNumber: 6,
+        lineNumber: 5,
         columnNumber: 5
     }, undefined);
 };

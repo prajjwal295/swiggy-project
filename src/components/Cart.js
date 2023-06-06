@@ -23,7 +23,7 @@ const Cart = () => {
 
   return (
     <div>
-      <div className={`${cartData.length ? "hidden" : "block"}`}>
+      <div className={`${cartData.length ? "hidden" : "block h-[90vh]"}`}>
         {/* {`banner ${active ? "active" : ""}`} */}
         <NoCart />
       </div>
