@@ -10,7 +10,7 @@ const RestourantCard = ({
   return (
     <>
       <div
-        className="card w-[200px] h-[250px] shadow-lg  p-2.5 flex flex-col m-2.5 hover:border-[2px] hover:shadow-2xl transition-transform"
+        className="card w-[200px] h-[250px] shadow-lg  p-2.5 flex flex-col m-2.5 hover:border-[2px] hover:shadow-2xl transition-transform max-sm:w-[9rem] max-sm:m-auto"
         key={cloudinaryImageId}
       >
         <div className="top">

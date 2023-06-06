@@ -28,15 +28,14 @@ const Cart = () => {
         <NoCart />
       </div>
       <div className="flex bg-[rgb(233,236,238)] px-[110px] justify-between py-[50px] max-md:px-0 max-md:flex-col">
-      
-        <div className="bg-white w-[750px] h-[400px] max-md:w-[650px] max-md:m-auto ">
+        <div className="bg-white w-[750px] h-[400px] max-md:w-[650px] max-md:m-auto max-sm:w-auto max-md:h-auto">
           <Delivery />
         </div>
         <div
           className={`${
             cartData.length
               ? "flex flex-col p-10 w-[530px] bg-white  max-md:m-auto max-md:mt-10 max-md:min-h-[400px] max-md:w-[600px]"
-              : "bg-inherit p-10 w-[530px] max-md:mt-10 max-md:min-h-[400px] max-md:w-[600px]  "
+              : "bg-inherit p-10 w-[530px] max-md:mt-10 max-md:min-h-[400px] max-md:w-[600px] max-sm:w-screen "
           } `}
         >
           <div className="flex justify-between">
@@ -65,7 +64,6 @@ const Cart = () => {
             ))}
           </div>
           <div>
-         
             <p
               className={`${
                 cartData.length

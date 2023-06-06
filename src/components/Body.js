@@ -59,7 +59,7 @@ const Body = () => {
     <Shimer />
   ) : (
     <div className="Body-comp  ">
-      <div className="search-box flex items-center justify-center my-5">
+      <div className="search-box flex items-center justify-center my-5 max-sm:w-[300px] m-auto">
         <input
           type="text"
           value={searchInput}
@@ -82,11 +82,11 @@ const Body = () => {
       </div>
 
       <div className=" body-2 flex flex-col items-start my-2.5">
-        <h2 className="text-2xl font-bold ml-[50px] mb-5">
+        <h2 className="text-2xl font-bold ml-[50px] mb-5 ">
           {fillteredRestourants.length} Restourants Available
         </h2>
 
-        <div className="body flex flex-wrap items-center justify-center">
+        <div className="body flex flex-wrap items-center justify-center max-sm:justify-start">
           {fillteredRestourants == 0 ? (
             <h2 className="h-[62vh]">Wrong Choice,Kuch aur dekh bhai!!!</h2>
           ) : (

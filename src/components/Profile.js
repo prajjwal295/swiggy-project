@@ -29,7 +29,7 @@ export const Profile = () => {
           />
         </div>
         <div className="border-2 shadow-2xl items-center justify-evenly flex flex-col h-[300px] w-[300px]">
-          <h2 className="font-bold text-2xl flex justify-end left-0">
+          <h2 className="font-bold text-2xl flex justify-end left-0 ">
             🤖{userData.name}
           </h2>
           <h2 className="font-bold text-xl flex justify-end left-0 text-gray-700">
