@@ -19,7 +19,7 @@ export const Header = () => {
         </a>
       </div>
       <div className="relative right flex items-center max-sm:justify-center max-sm:h-40 max-sm:flex-col  ">
-        <ul className="nav-list flex max-sm:m-auto items-center justify-center border-2 border-black max-sm:m">
+        <ul className="nav-list flex max-sm:m-auto items-center justify-center max-sm:m">
           <li className="pr-10">
             <Link className="font-semibold hover:text-orange-500" to="/">
               Home
