@@ -8,7 +8,7 @@ export const Header = () => {
 
 
   return (
-    <div className="flex bg-white shadow-2xl align-items justify-between m-0 h-20 w-screen mb-0  max-sm:justify-center max-sm:h-[13rem] max-sm:flex-col max-sm:items-center ">
+    <div className="flex bg-white shadow-2xl align-items justify-between m-0 h-20 w-screen mb-0  max-sm:justify-center max-sm:h-[11rem] max-sm:flex-col max-sm:items-center ">
       <div className="left">
         <a href="/">
           <img
@@ -19,7 +19,7 @@ export const Header = () => {
         </a>
       </div>
       <div className="relative right flex items-center max-sm:justify-center max-sm:h-40 max-sm:flex-col  ">
-        <ul className="nav-list flex max-sm:m-auto items-center justify-center max-sm:m">
+        <ul className="nav-list flex max-sm:m-auto items-center justify-center ">
           <li className="pr-10">
             <Link className="font-semibold hover:text-orange-500" to="/">
               Home
@@ -40,7 +40,7 @@ export const Header = () => {
               Contact
             </Link>
           </li> */}
-          <li className="pr-10">
+          <li className="pr-10 max-sm:pr-0">
             <Link
               className="font-semibold hover:text-orange-500"
               to="/Instamart"
@@ -52,7 +52,7 @@ export const Header = () => {
 
         {userLogin ? (
           <button
-            className="h-8 w-20 justify-center items-center mr-5 text-white bg-orange-500"
+            className="h-8 w-20 justify-center items-center mr-5 text-white bg-orange-500 max-sm:mb-1"
             onClick={() => {
               setUserLogin(false);
             }}
@@ -62,7 +62,7 @@ export const Header = () => {
         ) : (
           <button
             className="h-8
-            w-20  justify-center align-middle  items-center mr-5 bg-green-500 text-white"
+            w-20  justify-center align-middle  items-center mr-5 bg-green-500 text-white max-sm:mb-1"
             onClick={() => {
               setUserLogin(true);
             }}

@@ -44,15 +44,19 @@ const Body = () => {
 
   if (!AllRestourants)
     return (
-      <div className="null-restourants flex flex-col items-center justify-center">
+      <div className="null-restourants flex flex-col items-center justify-center max-md:h-screen max-sm:justify-normal">
         <img
           src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/connection_error_bsppck"
-          alt="img" className="w-[400px] h-auto"
+          alt="img"
+          className="w-[400px] h-auto"
         />
-        <h1>Oh! All restaurants are currently unserviceable</h1>
-        <h3> All restaurants are unserviceable, check back in some time.</h3>
+        <h1 className="max-sm:mx-auto">
+          Oh! All restaurants are currently unserviceable!!
+        </h1>
+        <h3 className="max-sm:mx-auto pl-2">
+          All restaurants are unserviceable, check back in some time.
+        </h3>
       </div>
-   
     );
 
   return AllRestourants?.length === 0 ? (

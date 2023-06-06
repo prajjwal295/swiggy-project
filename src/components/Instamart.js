@@ -8,7 +8,7 @@ const Instamart = () => {
         alt="no restourant"
         className="h-[250px] w-auto mb-4"
       />
-      <h1 className="font-bold text-xl text-[rgb(51,44,63)] mb-2">
+      <h1 className="font-bold text-xl text-[rgb(51,44,63)] mb-2r">
         This Feature is only Available in Mobile Apps
       </h1>
       <h2 className="font-medium text-sm text-[rgb(95,83,114)] mb-4">

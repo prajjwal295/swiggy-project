@@ -603,7 +603,7 @@ const Instamart = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "font-bold text-xl text-[rgb(51,44,63)] mb-2",
+                className: "font-bold text-xl text-[rgb(51,44,63)] mb-2r",
                 children: "This Feature is only Available in Mobile Apps"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
