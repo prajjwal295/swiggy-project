@@ -27320,7 +27320,7 @@ const Header = ()=>{
     const [userLogin, setUserLogin] = (0, _react.useState)(false);
     const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "flex bg-white shadow-2xl align-items justify-between m-0 h-20 w-screen mb-0 max-sm:justify-center max-sm:h-[13rem] max-sm:flex-col max-sm:items-center ",
+        className: "flex bg-white shadow-2xl align-items justify-between m-0 h-20 w-screen mb-0 max-sm:justify-center max-sm:h-[11rem] max-sm:flex-col max-sm:items-center ",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "left",
@@ -27349,7 +27349,7 @@ const Header = ()=>{
                 className: "relative right flex items-center max-sm:justify-center max-sm:h-40 max-sm:flex-col ",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        className: "nav-list flex max-sm:m-auto items-center justify-center border-2 border-black max-sm:m",
+                        className: "nav-list flex max-sm:m-auto items-center justify-center ",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "pr-10",
@@ -27403,7 +27403,7 @@ const Header = ()=>{
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "pr-10",
+                                className: "pr-10 max-sm:pr-0",
                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     className: "font-semibold hover:text-orange-500",
                                     to: "/Instamart",
@@ -27425,7 +27425,7 @@ const Header = ()=>{
                         columnNumber: 9
                     }, undefined),
                     userLogin ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "h-8 w-20 justify-center items-center mr-5 text-white bg-orange-500",
+                        className: "h-8 w-20 justify-center items-center mr-5 text-white bg-orange-500 max-sm:mb-1",
                         onClick: ()=>{
                             setUserLogin(false);
                         },
@@ -27435,7 +27435,7 @@ const Header = ()=>{
                         lineNumber: 54,
                         columnNumber: 11
                     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "h-8 w-20 justify-center align-middle items-center mr-5 bg-green-500 text-white",
+                        className: "h-8 w-20 justify-center align-middle items-center mr-5 bg-green-500 text-white max-sm:mb-1",
                         onClick: ()=>{
                             setUserLogin(true);
                         },
@@ -34681,7 +34681,7 @@ const Body = ()=>{
         columnNumber: 12
     }, undefined);
     if (!AllRestourants) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "null-restourants flex flex-col items-center justify-center",
+        className: "null-restourants flex flex-col items-center justify-center max-md:h-screen max-sm:justify-normal",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/connection_error_bsppck",
@@ -34693,17 +34693,19 @@ const Body = ()=>{
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "Oh! All restaurants are currently unserviceable"
-            }, void 0, false, {
-                fileName: "src/components/Body.js",
-                lineNumber: 52,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: " All restaurants are unserviceable, check back in some time."
+                className: "max-sm:mx-auto",
+                children: "Oh! All restaurants are currently unserviceable!!"
             }, void 0, false, {
                 fileName: "src/components/Body.js",
                 lineNumber: 53,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                className: "max-sm:mx-auto pl-2",
+                children: "All restaurants are unserviceable, check back in some time."
+            }, void 0, false, {
+                fileName: "src/components/Body.js",
+                lineNumber: 56,
                 columnNumber: 9
             }, undefined)
         ]
@@ -34714,7 +34716,7 @@ const Body = ()=>{
     }, undefined);
     return AllRestourants?.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimerDefault.default), {}, void 0, false, {
         fileName: "src/components/Body.js",
-        lineNumber: 59,
+        lineNumber: 63,
         columnNumber: 5
     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "Body-comp ",
@@ -34733,7 +34735,7 @@ const Body = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 63,
+                        lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -34745,13 +34747,13 @@ const Body = ()=>{
                         children: "Search"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 73,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 62,
+                lineNumber: 66,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34765,7 +34767,7 @@ const Body = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 85,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34775,7 +34777,7 @@ const Body = ()=>{
                             children: "Wrong Choice,Kuch aur dekh bhai!!!"
                         }, void 0, false, {
                             fileName: "src/components/Body.js",
-                            lineNumber: 91,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined) : fillteredRestourants.map((Restourant)=>{
                             return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34786,37 +34788,37 @@ const Body = ()=>{
                                         key: Restourant.data.id,
                                         __source: {
                                             fileName: "src/components/Body.js",
-                                            lineNumber: 97,
+                                            lineNumber: 101,
                                             columnNumber: 21
                                         },
                                         __self: undefined
                                     })
                                 }, void 0, false, {
                                     fileName: "src/components/Body.js",
-                                    lineNumber: 96,
+                                    lineNumber: 100,
                                     columnNumber: 19
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/components/Body.js",
-                                lineNumber: 95,
+                                lineNumber: 99,
                                 columnNumber: 17
                             }, undefined);
                         })
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 89,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 84,
+                lineNumber: 88,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Body.js",
-        lineNumber: 61,
+        lineNumber: 65,
         columnNumber: 5
     }, undefined);
 };
