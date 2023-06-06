@@ -52,6 +52,11 @@ const appRouter = createBrowserRouter([
         element: <Help />,
         children: [
           {
+            path: "/Help",
+            element: <FAQ />,
+            // Nested routing
+          },
+          {
             path: "Profile",
             element: <Profile />,
             // Nested routing
@@ -87,22 +92,6 @@ const appRouter = createBrowserRouter([
       },
     ],
   },
-  // {
-  //   path: "/about",
-  //   element: <About />,
-  // },
-  // {
-  //   path: "/",
-  //   element: "<AppLayout/>",
-  // },
-  // {
-  //   path: "/Contact",
-  //   element: <Contact />,
-  // },
-  // {
-  //   path: "/Cart",
-  //   element: <Cart />,
-  // },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

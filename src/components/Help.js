@@ -20,32 +20,4 @@ export const Help = () => {
   );
 };
 
-const appRouter2 = createBrowserRouter([
-  {
-    path: "/Help",
-    element: <Help />,
-    errorElement: <Error />,
-    children: [
-      {
-        path: "/Help",
-        element: <Help />,
-      },
-      {
-        path: "FAQ",
-        element: <FAQ />,
-      },
-      {
-        path: "Contact",
-        element: <Contact />,
-      },
-      {
-        path: "Profile",
-        element: <Profile />,
-      },
-    ],
-  },
-]);
-
-export default function App() {
-  return <RouterProvider router={appRouter2} />;
-}
+export default <RouterProvider />;

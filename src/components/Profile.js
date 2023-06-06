@@ -15,7 +15,7 @@ export const Profile = () => {
     getUser();
   }, []);
 
-  return !userData.avatar_url ? (
+  return (!userData.avatar_url) ? (
     <ShimerProfile />
   ) : (
     <div className="flex flex-col w-full mt-16 font-bold text-2xl max-md:h-[400px] max-md:mt-0">
